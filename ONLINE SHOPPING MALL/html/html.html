@@ -1,0 +1,186 @@
+<!--DOCTYPE html-->
+<html>
+<head>
+   <title>Buy Lanka Shopping Mall</title>
+   <link rel="stylesheet" type="text/css" href="../css/css.css">
+   <script type="text/javascript" src="../js/script.js"></script>
+</head>
+
+<body>
+<header>
+  <div class="Navigation">
+  <img src="..\images\Logo.jpg" width="100" height="120" class="logo">    
+	<ul class="menu">
+         <li><a href="#">HOME</a></li>
+         <li><a href="#">Categories</a></li>
+         <li><a href="#">Track my Order</a></li>
+         <li><a href="#">Contact Us</a></li>
+		 <li><a href="#">My Cart</a></li>
+	</ul>
+	  <div class="dropdown">
+	   <button class="dropbtn">Account</button>
+	    <div class="dropdown-content">
+	     <a href="#">Log In</a>
+	     <a href="#">Log Out</a>
+	     <a href="#">Register</a>
+	    </div>	
+	   </div>	
+	 	
+	 <form class="search-form">
+	   <input type="text" placeholder="Search">
+	   <button onclick="myFunction()"> Search</button>
+	   </form>
+	   <a href="#">
+	   <img src="..\images\profile.png" width="70px" height="70px" alt="Profile" class="profile" >
+	   </a>
+	  </div> 
+ </header>
+  <section>
+  
+
+ <div class="content" >
+
+ <form action="dummy.php"  class="form" method="POST" >
+   <h2  align="center" > <u>My Account</u> </h2>
+   
+  
+ <img src="../images/profile.jpg" class="image1" alt="Add profile picture">
+  <div>
+    <lable><b>Name</b></lable>
+    <input type="text" name="name" placeholder="First Name">
+  </div><br>
+  
+  <div>
+    <lable>     </lable>
+    <input type="text" name="name" placeholder="Last Name">
+  </div>
+  <br>
+  
+  <h5 class="text1" ><abbr><a href="#">Add profile picture</a></abbr></h5>
+  
+  
+ <div>
+     <lable><b>Email</b></lable>
+     <input type="text" name="email" placeholder="Email">
+ </div>
+ <br>
+ 
+ 
+   <div>
+     <lable><b>password</b></lable>
+     <input type="password" name="password" placeholder="Password">
+  </div>
+  <br>
+ 
+ 
+   <div>
+      <lable><b>Address</b></lable>
+      <textarea type="text" name="address" placeholder="Street Address 1"></textarea>
+   </div>
+   <br>
+	
+   <div>
+     <lable>  </lable>
+     <textarea type="text" name="address" placeholder="Street Address 2"></textarea>
+ 
+   </div>
+   <br>
+ 
+    
+  <div>
+       <lable><b>City</b></lable>
+      <input type="text" name="city" placeholder="City">
+  </div>
+  <br>
+ 
+  <div>
+       <lable><b>Postal Code</b></lable>
+        <input type="numbers" name="postalCode" placeholder="Postal Code">
+  </div>
+  <br>
+ 
+ 
+   <div>
+      <lable><b>Phone Number</b></lable>
+      <input type="numbers" name="phoneNumber" placeholder="Phone Number">
+  </div>
+  <br>
+ 
+  <div>
+    <lable><b>Gender</b></lable>
+    <select name="gender" >
+        <option value="male" >Male</option>
+        <option value="Female" >FeMale</option>
+    </select>
+  </div>
+  <br>
+  <br>
+  
+  
+    <input type="checkbox" name="" value =""><span><b>Yes,I guarantee the above information is true..</b></span>
+    <br>
+	<br>
+	<br>
+	
+    <input type="button" name="" value ="Save Details"> 
+	<p class="phara" id="p2"><mark>If you need to change your information, change it again correctly.<br><br>
+          If you want to change my bank details, change it correctly.</mark></p>
+	<h5 class="text2" ><mark><a href="#">Terms of Us</a></mark></h5>
+	<h5 class="text3" ><a href="#">Join on Us</a></h5>
+	<h5 class="text4" ><a href="#">Feedback</a></h5>
+	
+    <img src="../images/fb1.png" class="image2">
+    <img src="../images/twitter.jpg" class="image3">
+	
+ </form>
+ 
+ </div>
+ 
+       <!--sidebar---->
+
+   <div class="sidebar">
+	
+	  <ul>
+	      <li><u><a href="#">My Account</a></u></li>
+          <li><u><a href="#">My Bank Details</a></u></li>
+		  <li><u><a href="#"> Help</a></u></li>
+		  <li><u><a href="#">Settings</a></u></li>
+	  </ul>	  
+   </div>  
+
+
+       <!---close-->
+
+</section>
+ <footer>
+ <p align="right" style="font-size:20px">
+ <b>Online Shopping Sri Lanka with Home Delivery</b></p>
+ <p align="center" style="color:red">
+ <b>Quick Links:</b><br><br>
+ <b><a href="#">HOME</a></b><br>
+ <b><a href="#">Categories</a></b><br>
+ <b><a href="#">Terms and Conditions</a></b><br>
+ <b><a href="#">Contact Us</a></b></p>
+ 
+ <div class="store-icons">
+ <img src="..\images\store.jpg">
+ </div>
+ 
+<p class="follow" align="left"><b> Follow Us On:</b></p>
+<div class="social-icons">
+        <a href="#" ><img src="..\images\fb.jpg"></a>
+		<a href="#" ><img src="..\images\tw.png"></a>
+		<a href="#" ><img src="..\images\goo.png"></a>
+</div>
+
+<p class="payment" align="right"><b> Payment Methods: </b></p>
+<div class="pay-icons">
+        <a href="#"><img src="..\images\visa.png"></a>
+		<a href="#"><img src="..\images\master.png"></a>
+		<a href="#"><img src="..\images\paypal.png"></a>
+</div>
+
+</footer>
+
+</body>
+</html>
